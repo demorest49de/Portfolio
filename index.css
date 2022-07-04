@@ -38,10 +38,9 @@ ul {
 }
 
 .header__navigation {
-    margin-left: 112px;
-    margin-right: 128px;
+    margin-left: 128px;
+    margin-right: 85px;
     display: inline-block;
-    float: none;
     vertical-align: middle;
 }
 
@@ -80,20 +79,29 @@ ul {
 }
 
 .header__form_search_button{
-    background-color: #050404;
+    background-color: transparent;
     margin-left: -55px;
     border-style: none;
-    vertical-align: middle;
-    height: 40px;
-    width: 48px;
+    height: 32px;
+    width: 32px;
     position: relative;
-    top: -1px;
+    bottom: -9px;
     left: 5px;
 }
+
+.header__form_search_button::-moz-pagecontent
 
 .header__form_search_image{
     background-color: transparent;
     width: 32px;
     height: 32px;
-    vertical-align: middle;
+}
+
+.hero{
+    background-image: url("img/hero/kate leo.jpg");
+    background-size: cover  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 780px;
+
 }
