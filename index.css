@@ -43,8 +43,8 @@ ul {
 }
 
 .header__navigation {
-    margin-left: 128px;
-    margin-right: 85px;
+    margin-left: 178px;
+    margin-right: 195px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -114,7 +114,7 @@ ul {
 
 .hero__title {
     font-size: 100px;
-    font-weight: 780;
+    font-weight: 800;
     line-height: 1;
     color: #ffb822;
     text-align: center;
@@ -126,7 +126,7 @@ ul {
 .hero__subtitle {
     font-size: 40px;
     line-height: 1;
-    font-weight: 780;
+    font-weight: 800;
     text-align: center;
     position: relative;
     bottom: 350px;
