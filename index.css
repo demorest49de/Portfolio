@@ -61,18 +61,22 @@ ul {
 
 .header__form {
     display: inline-block;
+    border-radius: 8px;
+    border: 3px solid #9965e3;
+    min-width: 264px;
 }
 
 .header__form_search {
+    border-style: none;
     font: inherit;
     font-weight: bold;
     height: 55px;
-    border-radius: 8px;
     outline: none;
-    min-width: 280px;
-    border: 3px solid #9965e3;
     background-color: #050404;
     color: #fff;
+    width: 195px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .header__form_search::placeholder {
@@ -84,50 +88,37 @@ ul {
 }
 
 .header__form_search_button {
+    background-image: url("img/search_button.svg");
     background-color: transparent;
-    margin-left: -55px;
+    background-repeat: no-repeat;
     border-style: none;
     height: 32px;
     width: 32px;
-    position: relative;
-    bottom: -9px;
-    left: 5px;
-}
-
-
-
-.header__form_search_image {
-    background-color: transparent;
-    width: 32px;
-    height: 32px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .hero {
-    background-image: url("img/hero/kate leo_shaded.png");
+    /*background-image: url("img/hero/kate leo_shaded.png");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 780px;
     border-top-right-radius: 134px;
     border-bottom-left-radius: 134px;
+    height: 780px;
 }
 
 .hero__title {
-    font-size: 100px;
-    font-weight: 800;
-    line-height: 1;
-    color: #ffb822;
-    text-align: center;
-    position: relative;
-    bottom: 350px;
-    margin-bottom: 37px;
-}
-
-.hero__subtitle {
     font-size: 40px;
     line-height: 1;
     font-weight: 800;
     text-align: center;
-    position: relative;
-    bottom: 350px;
+}
+
+.hero__subtitle {
+    font-size: 100px;
+    line-height: 1;
+    font-weight: 800;
+    text-align: center;
+    color: #ffb822;
 }
