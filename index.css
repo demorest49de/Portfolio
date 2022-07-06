@@ -98,14 +98,15 @@ ul {
     text-align: center;
 }
 
-.hero {
-    /*background-image: url("img/hero/kate leo_shaded.png");*/
+.hero:after {
+    content: "";
+    background-image: url("img/hero/kate leo_shaded.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-top-right-radius: 134px;
     border-bottom-left-radius: 134px;
-    height: 780px;
+    /*height: 780px;*/
 }
 
 .hero__title {
