@@ -7,7 +7,6 @@ body {
     color: white;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 130px;
     font-family: Roboto, sans-serif;
     font-size: 22px;
     line-height: 1;
@@ -28,8 +27,14 @@ ul {
     list-style: none;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
 .header__container {
-    margin: 60px 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -43,8 +48,8 @@ ul {
 }
 
 .header__navigation {
-    margin-left: 178px;
-    margin-right: 195px;
+    margin-left: 110px;
+    margin-right: 110px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -52,7 +57,10 @@ ul {
 
 .navigation__item {
     display: inline-block;
-    margin: 0 18px;
+}
+
+.navigation__item:not(:last-child) {
+    margin-right: 40px;
 }
 
 .navigation__item:nth-last-child(2) {
@@ -98,15 +106,14 @@ ul {
     text-align: center;
 }
 
-.hero:after {
-    content: "";
+.wrapper {
     background-image: url("img/hero/kate leo_shaded.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-top-right-radius: 134px;
     border-bottom-left-radius: 134px;
-    /*height: 780px;*/
+    min-height: 780px;
 }
 
 .hero__title {
@@ -114,6 +121,7 @@ ul {
     line-height: 1;
     font-weight: 800;
     text-align: center;
+    padding-top: 37px;
 }
 
 .hero__subtitle {
