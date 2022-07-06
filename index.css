@@ -17,7 +17,6 @@ a {
     color: inherit;
 }
 
-
 h1, h2, h3, p {
     margin: 0;
 }
@@ -114,7 +113,10 @@ ul {
     border-top-right-radius: 134px;
     border-bottom-left-radius: 134px;
     min-height: 780px;
-    padding-top: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero__title {
