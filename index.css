@@ -114,6 +114,7 @@ ul {
     border-top-right-radius: 134px;
     border-bottom-left-radius: 134px;
     min-height: 780px;
+    padding-top: 325px;
 }
 
 .hero__title {
@@ -121,7 +122,6 @@ ul {
     line-height: 1;
     font-weight: 800;
     text-align: center;
-    padding-top: 37px;
 }
 
 .hero__subtitle {
@@ -130,4 +130,5 @@ ul {
     font-weight: 800;
     text-align: center;
     color: #ffb822;
+    margin-bottom: 37px;
 }
